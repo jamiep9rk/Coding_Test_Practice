@@ -1,4 +1,7 @@
 function solution(a, b) {
+    // 월별로 일수를 나타내는 배열을 만들어준다
+    // 반복문을 돌면서 해당 월의 일수를 date에 더해준다
+    // 해당 월까지 반복문을 돌면 date 값을 리턴해준다
     let date = 0;
     let day = ["FRI", "SAT", "SUN", "MON", "TUE", "WED", "THU"];
     let daysCount = [0, 30, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
